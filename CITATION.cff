@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the QRCIT paper when using this code."
+title: "Structural Conditional Independence Test via Neural Quantile Resolution"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Nguyen
+    given-names: Khoa
+  - family-names: Duong
+    given-names: Bao
+  - family-names: Nguyen
+    given-names: Thin
+repository-code: "https://github.com/khoangdadk/qrcit"

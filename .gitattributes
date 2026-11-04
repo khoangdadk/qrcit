@@ -1,0 +1,4 @@
+# Keep scientific input and reference-result bytes consistent across platforms.
+* text=auto eol=lf
+data/** -text
+results/** -text

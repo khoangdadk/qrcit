@@ -1,0 +1,213 @@
+benchmark,sweep,x_value,method,metric,value,time,note
+PNL,N,250,QRCIT,Power,0.79,7.484031,
+PNL,N,500,QRCIT,Power,0.81,12.202813,
+PNL,N,1000,QRCIT,Power,0.99,21.306807,
+PNL,N,1500,QRCIT,Power,0.99,20.722064,
+PNL,N,250,GCM,Power,0.67,0.007522,
+PNL,N,500,GCM,Power,0.71,0.033325,
+PNL,N,1000,GCM,Power,0.82,0.591354,
+PNL,N,1500,GCM,Power,0.76,0.739716,
+PNL,N,250,SGMCIT,Power,0.54,0.565519,
+PNL,N,500,SGMCIT,Power,0.72,0.947538,
+PNL,N,1000,SGMCIT,Power,0.82,1.792541,
+PNL,N,1500,SGMCIT,Power,0.81,2.838568,
+PNL,N,250,CDCIT,Power,0.2,3.70279,
+PNL,N,500,CDCIT,Power,0.13,4.977856,
+PNL,N,1000,CDCIT,Power,0.25,6.957351,
+PNL,N,1500,CDCIT,Power,0.34,8.511949,
+PNL,N,250,NNLSCIT,Power,0.13,0.0388867,weighted merge over 38 PNL rows
+PNL,N,500,NNLSCIT,Power,0.25999995,0.05227544,weighted merge over 36 PNL rows
+PNL,N,1000,NNLSCIT,Power,0.53000001,0.06400618,weighted merge over 34 PNL rows
+PNL,N,1500,NNLSCIT,Power,0.64000004,0.06842385,weighted merge over 37 PNL rows
+PNL,N,250,KCI,Power,0.52,4.499229,
+PNL,N,500,KCI,Power,0.54,25.322373,
+PNL,N,250,PM-KCI,Power,0.49,5.664628,
+PNL,N,500,PM-KCI,Power,0.56,18.000061,
+PNL,N,250,QRCIT,Type-I,0.08,7.262173,
+PNL,N,500,QRCIT,Type-I,0.08,11.740786,
+PNL,N,1000,QRCIT,Type-I,0.1,19.281543,
+PNL,N,1500,QRCIT,Type-I,0.1,32.305023,
+PNL,N,250,GCM,Type-I,0.09,0.008662,
+PNL,N,500,GCM,Type-I,0.04,0.029402,
+PNL,N,1000,GCM,Type-I,0.03,0.605412,
+PNL,N,1500,GCM,Type-I,0.05,0.750529,
+PNL,N,250,SGMCIT,Type-I,0.11,0.571068,
+PNL,N,500,SGMCIT,Type-I,0.16,0.938159,
+PNL,N,1000,SGMCIT,Type-I,0.11,1.803423,
+PNL,N,1500,SGMCIT,Type-I,0.08,2.810669,
+PNL,N,250,CDCIT,Type-I,0.01,3.857485,
+PNL,N,500,CDCIT,Type-I,0.08,4.970786,
+PNL,N,1000,CDCIT,Type-I,0.02,6.857013,
+PNL,N,1500,CDCIT,Type-I,0.06,8.403924,
+PNL,N,250,NNLSCIT,Type-I,0.01999999,0.03890324,weighted merge over 35 PNL rows
+PNL,N,500,NNLSCIT,Type-I,0.04999996,0.0494586699999999,weighted merge over 37 PNL rows
+PNL,N,1000,NNLSCIT,Type-I,0.0299999899999999,0.06377395,weighted merge over 39 PNL rows
+PNL,N,1500,NNLSCIT,Type-I,0.04,0.06883278,weighted merge over 35 PNL rows
+PNL,N,250,KCI,Type-I,0.07,4.43521,
+PNL,N,500,KCI,Type-I,0.07,25.85739,
+PNL,N,250,PM-KCI,Type-I,0.05,8.047564,
+PNL,N,500,PM-KCI,Type-I,0.07,17.124127,
+PNL,d_z,5,NNLSCIT,Power,0.53000001,0.06400618,weighted merge over 34 PNL rows
+PNL,d_z,10,NNLSCIT,Power,0.5200000100000001,0.0903249399999999,weighted merge over 37 PNL rows
+PNL,d_z,20,NNLSCIT,Power,0.49000002,0.1331829,weighted merge over 38 PNL rows
+PNL,d_z,50,NNLSCIT,Power,0.4499999699999999,0.26977331,weighted merge over 70 PNL rows
+PNL,d_z,5,NNLSCIT,Type-I,0.0299999899999999,0.06377395,weighted merge over 39 PNL rows
+PNL,d_z,10,NNLSCIT,Type-I,0.0899999599999999,0.08998534,weighted merge over 38 PNL rows
+PNL,d_z,20,NNLSCIT,Type-I,0.04000001,0.13069744,weighted merge over 38 PNL rows
+PNL,d_z,50,NNLSCIT,Type-I,0.01,0.2729872599999999,weighted merge over 74 PNL rows
+PNL,dz,5,QRCIT,Power,0.99,21.540992,
+PNL,dz,10,QRCIT,Power,0.96,21.758676,
+PNL,dz,20,QRCIT,Power,0.91,20.69997,
+PNL,dz,50,QRCIT,Power,0.82,19.019457,
+PNL,dz,5,GCM,Power,0.82,0.20238,
+PNL,dz,10,GCM,Power,0.75,0.596395,
+PNL,dz,20,GCM,Power,0.79,0.596197,
+PNL,dz,50,GCM,Power,0.79,0.601384,
+PNL,dz,5,SGMCIT,Power,0.82,1.792541,
+PNL,dz,10,SGMCIT,Power,0.84,1.80542,
+PNL,dz,20,SGMCIT,Power,0.87,1.862338,
+PNL,dz,50,SGMCIT,Power,0.82,1.923436,
+PNL,dz,5,CDCIT,Power,0.25,6.957351,
+PNL,dz,10,CDCIT,Power,0.24,7.54349,
+PNL,dz,20,CDCIT,Power,0.32,6.941352,
+PNL,dz,50,CDCIT,Power,0.31,7.079641,
+PNL,dz,5,QRCIT,Type-I,0.1,21.057188,
+PNL,dz,10,QRCIT,Type-I,0.07,21.064048,
+PNL,dz,20,QRCIT,Type-I,0.11,20.6071,
+PNL,dz,50,QRCIT,Type-I,0.15,18.813619,
+PNL,dz,5,GCM,Type-I,0.03,0.212547,
+PNL,dz,10,GCM,Type-I,0.05,0.585452,
+PNL,dz,20,GCM,Type-I,0.09,0.601497,
+PNL,dz,50,GCM,Type-I,0.07,0.605211,
+PNL,dz,5,SGMCIT,Type-I,0.11,1.803423,
+PNL,dz,10,SGMCIT,Type-I,0.06,1.800096,
+PNL,dz,20,SGMCIT,Type-I,0.04,1.79948,
+PNL,dz,50,SGMCIT,Type-I,0.06,1.89595,
+PNL,dz,5,CDCIT,Type-I,0.02,6.857013,
+PNL,dz,10,CDCIT,Type-I,0.1,7.296701,
+PNL,dz,20,CDCIT,Type-I,0.03,6.723481,
+PNL,dz,50,CDCIT,Type-I,0.05,7.317429,
+SDB,N,250,QRCIT,Power,0.6100000000000001,8.558998200000001,global
+SDB,N,500,QRCIT,Power,0.73,11.2860318,global
+SDB,N,1000,QRCIT,Power,0.89,18.5505672,global
+SDB,N,1500,QRCIT,Power,0.98,29.2288554,global
+SDB,N,250,QRCIT+PG,Power,0.73,8.558998200000001,"summary-level local-rescue proxy using max(global,power_pg)"
+SDB,N,500,QRCIT+PG,Power,0.8200000000000001,11.2860318,"summary-level local-rescue proxy using max(global,power_pg)"
+SDB,N,1000,QRCIT+PG,Power,0.97,18.5505672,"summary-level local-rescue proxy using max(global,power_pg)"
+SDB,N,1500,QRCIT+PG,Power,0.99,29.2288554,"summary-level local-rescue proxy using max(global,power_pg)"
+SDB,N,250,QRCIT+DE,Power,0.6799999999999999,8.558998200000001,"summary-level local-rescue proxy using max(global,power_de)"
+SDB,N,500,QRCIT+DE,Power,0.86,11.2860318,"summary-level local-rescue proxy using max(global,power_de)"
+SDB,N,1000,QRCIT+DE,Power,0.98,18.5505672,"summary-level local-rescue proxy using max(global,power_de)"
+SDB,N,1500,QRCIT+DE,Power,1.0,29.2288554,"summary-level local-rescue proxy using max(global,power_de)"
+SDB,N,250,GCM,Power,0.39,0.010796,
+SDB,N,500,GCM,Power,0.47,0.028817,
+SDB,N,1000,GCM,Power,0.52,0.191462,
+SDB,N,1500,GCM,Power,0.53,0.673444,
+SDB,N,250,SGMCIT,Power,0.42,0.559514,
+SDB,N,500,SGMCIT,Power,0.63,1.035685,
+SDB,N,1000,SGMCIT,Power,0.84,1.876768,
+SDB,N,1500,SGMCIT,Power,0.96,2.753845,
+SDB,N,250,CDCIT,Power,0.06,3.981422,
+SDB,N,500,CDCIT,Power,0.13,5.006308,
+SDB,N,1000,CDCIT,Power,0.2,6.899317,
+SDB,N,1500,CDCIT,Power,0.24,9.223333,
+SDB,N,250,NNLSCIT,Power,0.12,0.036848,direct merged_sdb row
+SDB,N,500,NNLSCIT,Power,0.16,0.049777,direct merged_sdb row
+SDB,N,1000,NNLSCIT,Power,0.39,0.057024,direct merged_sdb row
+SDB,N,1500,NNLSCIT,Power,0.48,0.059879,direct merged_sdb row
+SDB,N,250,KCI,Power,0.41,4.134179,
+SDB,N,500,KCI,Power,0.64,11.749765,
+SDB,N,1000,KCI,Power,0.56,115.668569,
+SDB,N,250,PM-KCI,Power,0.5,8.983453,
+SDB,N,500,PM-KCI,Power,0.63,42.860299,
+SDB,N,250,QRCIT,Type-I,0.0999999999999999,8.558998200000001,global
+SDB,N,500,QRCIT,Type-I,0.11,11.2860318,global
+SDB,N,1000,QRCIT,Type-I,0.0799999999999999,18.5505672,global
+SDB,N,1500,QRCIT,Type-I,0.05,29.2288554,global
+SDB,N,250,QRCIT+PG,Type-I,0.0999999999999999,8.558998200000001,gated-local-rescue type-I uses global gate
+SDB,N,500,QRCIT+PG,Type-I,0.11,11.2860318,gated-local-rescue type-I uses global gate
+SDB,N,1000,QRCIT+PG,Type-I,0.0799999999999999,18.5505672,gated-local-rescue type-I uses global gate
+SDB,N,1500,QRCIT+PG,Type-I,0.05,29.2288554,gated-local-rescue type-I uses global gate
+SDB,N,250,QRCIT+DE,Type-I,0.0999999999999999,8.558998200000001,gated-local-rescue type-I uses global gate
+SDB,N,500,QRCIT+DE,Type-I,0.11,11.2860318,gated-local-rescue type-I uses global gate
+SDB,N,1000,QRCIT+DE,Type-I,0.0799999999999999,18.5505672,gated-local-rescue type-I uses global gate
+SDB,N,1500,QRCIT+DE,Type-I,0.05,29.2288554,gated-local-rescue type-I uses global gate
+SDB,N,250,GCM,Type-I,0.05,0.01343,
+SDB,N,500,GCM,Type-I,0.06,0.030364,
+SDB,N,1000,GCM,Type-I,0.03,0.197542,
+SDB,N,1500,GCM,Type-I,0.07,0.680973,
+SDB,N,250,SGMCIT,Type-I,0.06,0.568985,
+SDB,N,500,SGMCIT,Type-I,0.09,1.004102,
+SDB,N,1000,SGMCIT,Type-I,0.06,1.877921,
+SDB,N,1500,SGMCIT,Type-I,0.09,2.744009,
+SDB,N,250,CDCIT,Type-I,0.04,3.924731,
+SDB,N,500,CDCIT,Type-I,0.11,5.063988,
+SDB,N,1000,CDCIT,Type-I,0.07,6.724407,
+SDB,N,1500,CDCIT,Type-I,0.09,9.121782,
+SDB,N,250,NNLSCIT,Type-I,0.04,0.036756,direct merged_sdb row
+SDB,N,500,NNLSCIT,Type-I,0.05,0.04893,direct merged_sdb row
+SDB,N,1000,NNLSCIT,Type-I,0.05,0.056619,direct merged_sdb row
+SDB,N,1500,NNLSCIT,Type-I,0.05,0.060321,direct merged_sdb row
+SDB,N,250,KCI,Type-I,0.07,4.212341,
+SDB,N,500,KCI,Type-I,0.05,11.8644,
+SDB,N,1000,KCI,Type-I,0.02,116.765138,
+SDB,N,250,PM-KCI,Type-I,0.07,9.127831,
+SDB,N,500,PM-KCI,Type-I,0.05,43.249214,
+SDB,d_z,5,NNLSCIT,Power,0.39,0.0666228,weighted merge over 5 structural-pattern rows
+SDB,d_z,10,NNLSCIT,Power,0.25,0.0732548,weighted merge over 5 structural-pattern rows
+SDB,d_z,20,NNLSCIT,Power,0.36,0.1017436,weighted merge over 5 structural-pattern rows
+SDB,d_z,50,NNLSCIT,Power,0.22,0.1951347999999999,weighted merge over 5 structural-pattern rows
+SDB,d_z,5,NNLSCIT,Type-I,0.05,0.061264,weighted merge over 5 structural-pattern rows
+SDB,d_z,10,NNLSCIT,Type-I,0.04,0.0720272,weighted merge over 5 structural-pattern rows
+SDB,d_z,20,NNLSCIT,Type-I,0.02,0.100389,weighted merge over 5 structural-pattern rows
+SDB,d_z,50,NNLSCIT,Type-I,0.06,0.1957612,weighted merge over 5 structural-pattern rows
+SDB,dz,5,QRCIT,Power,0.89,21.2174884,global
+SDB,dz,10,QRCIT,Power,0.86,21.2626428,global
+SDB,dz,20,QRCIT,Power,0.8800000000000001,21.3491458,global
+SDB,dz,50,QRCIT,Power,0.7899999999999999,19.788255,global
+SDB,dz,5,QRCIT+PG,Power,0.97,21.2174884,"summary-level local-rescue proxy using max(global,power_pg)"
+SDB,dz,10,QRCIT+PG,Power,0.92,21.2626428,"summary-level local-rescue proxy using max(global,power_pg)"
+SDB,dz,20,QRCIT+PG,Power,0.95,21.3491458,"summary-level local-rescue proxy using max(global,power_pg)"
+SDB,dz,50,QRCIT+PG,Power,0.91,19.788255,"summary-level local-rescue proxy using max(global,power_pg)"
+SDB,dz,5,QRCIT+DE,Power,0.98,21.2174884,"summary-level local-rescue proxy using max(global,power_de)"
+SDB,dz,10,QRCIT+DE,Power,0.97,21.2626428,"summary-level local-rescue proxy using max(global,power_de)"
+SDB,dz,20,QRCIT+DE,Power,0.94,21.3491458,"summary-level local-rescue proxy using max(global,power_de)"
+SDB,dz,50,QRCIT+DE,Power,0.97,19.788255,"summary-level local-rescue proxy using max(global,power_de)"
+SDB,dz,5,GCM,Power,0.52,0.2039,d_z inferred from repeated summary blocks
+SDB,dz,10,GCM,Power,0.48,0.206585,d_z inferred from repeated summary blocks
+SDB,dz,20,GCM,Power,0.52,0.210227,d_z inferred from repeated summary blocks
+SDB,dz,50,GCM,Power,0.51,0.218131,d_z inferred from repeated summary blocks
+SDB,dz,5,SGMCIT,Power,0.84,1.81586,d_z inferred from repeated summary blocks
+SDB,dz,10,SGMCIT,Power,0.82,1.882852,d_z inferred from repeated summary blocks
+SDB,dz,20,SGMCIT,Power,0.84,1.924486,d_z inferred from repeated summary blocks
+SDB,dz,50,SGMCIT,Power,0.86,1.890108,d_z inferred from repeated summary blocks
+SDB,dz,5,CDCIT,Power,0.2,6.729432,d_z inferred from repeated summary blocks
+SDB,dz,10,CDCIT,Power,0.18,7.071675,d_z inferred from repeated summary blocks
+SDB,dz,20,CDCIT,Power,0.17,6.97116,d_z inferred from repeated summary blocks
+SDB,dz,50,CDCIT,Power,0.18,7.247713,d_z inferred from repeated summary blocks
+SDB,dz,5,KCI,Power,0.56,115.668569,d_z inferred from repeated summary blocks
+SDB,dz,5,QRCIT,Type-I,0.0799999999999999,21.2174884,global
+SDB,dz,10,QRCIT,Type-I,0.09,21.2626428,global
+SDB,dz,20,QRCIT,Type-I,0.07,21.3491458,global
+SDB,dz,50,QRCIT,Type-I,0.13,19.788255,global
+SDB,dz,5,QRCIT+PG,Type-I,0.0799999999999999,21.2174884,gated-local-rescue type-I uses global gate
+SDB,dz,10,QRCIT+PG,Type-I,0.09,21.2626428,gated-local-rescue type-I uses global gate
+SDB,dz,20,QRCIT+PG,Type-I,0.07,21.3491458,gated-local-rescue type-I uses global gate
+SDB,dz,50,QRCIT+PG,Type-I,0.13,19.788255,gated-local-rescue type-I uses global gate
+SDB,dz,5,QRCIT+DE,Type-I,0.0799999999999999,21.2174884,gated-local-rescue type-I uses global gate
+SDB,dz,10,QRCIT+DE,Type-I,0.09,21.2626428,gated-local-rescue type-I uses global gate
+SDB,dz,20,QRCIT+DE,Type-I,0.07,21.3491458,gated-local-rescue type-I uses global gate
+SDB,dz,50,QRCIT+DE,Type-I,0.13,19.788255,gated-local-rescue type-I uses global gate
+SDB,dz,5,GCM,Type-I,0.03,0.204068,d_z inferred from repeated summary blocks
+SDB,dz,10,GCM,Type-I,0.06,0.210414,d_z inferred from repeated summary blocks
+SDB,dz,20,GCM,Type-I,0.03,0.212585,d_z inferred from repeated summary blocks
+SDB,dz,50,GCM,Type-I,0.14,0.223573,d_z inferred from repeated summary blocks
+SDB,dz,5,SGMCIT,Type-I,0.06,1.801639,d_z inferred from repeated summary blocks
+SDB,dz,10,SGMCIT,Type-I,0.07,1.868519,d_z inferred from repeated summary blocks
+SDB,dz,20,SGMCIT,Type-I,0.09,1.921278,d_z inferred from repeated summary blocks
+SDB,dz,50,SGMCIT,Type-I,0.1,1.898205,d_z inferred from repeated summary blocks
+SDB,dz,5,CDCIT,Type-I,0.07,6.780186,d_z inferred from repeated summary blocks
+SDB,dz,10,CDCIT,Type-I,0.08,7.145188,d_z inferred from repeated summary blocks
+SDB,dz,20,CDCIT,Type-I,0.05,7.03253,d_z inferred from repeated summary blocks
+SDB,dz,50,CDCIT,Type-I,0.05,7.347863,d_z inferred from repeated summary blocks
+SDB,dz,5,KCI,Type-I,0.02,116.765138,d_z inferred from repeated summary blocks

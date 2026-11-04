@@ -1,0 +1,18 @@
+{
+  "archive_sha256": "e75dae7505c5ef6a1b790d9054193c2125ba5c5f41c1605611bb5039f72fe736",
+  "rows": 400,
+  "status": "validated_complete_rerun",
+  "environment": {
+    "torch": "2.15.0+cpu",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "PyYAML": "6.0.3",
+    "python": "3.11.14 (main, Jan 27 2026, 23:58:49) [Clang 21.1.4 ]"
+  },
+  "scientific_identities": {
+    "role_swap": "01daaf2236a85feda9bcb362d808052a9eb36152e70835914b39f824d113ee2d",
+    "multivariate_K9": "bd0f4cbbcf3fdc45574c1ffabae90a79e98c5d89a29efdb478aed73e7a23a02d"
+  }
+}

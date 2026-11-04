@@ -1,0 +1,16 @@
+{
+  "samples": 474,
+  "selected_mutation_features": 75,
+  "response": "PLX4720 Amax",
+  "preprocessing": "GCIT-style mutation-only load, absolute Pearson correlation >=0.10, then forced GCIT Figure4 and BRAF/MAPK features in original feature order",
+  "raw_sha256": {
+    "mutation.txt": "937430ab6ce71e0a71bba581a6ccc41b797d45d6292830c0787faf3efef6b145",
+    "response.csv": "9dce1a7d4c27627bcb3b5c2e6d14873955aac2906e5d44ad344c265a491404e5"
+  },
+  "files_sha256": {
+    "feature_inventory.csv": "3df5cf63c932bd17d567b22cfb33f320e640ab3d44849847efc17e7eac33f897",
+    "ccle_plx4720.npz": "60fbc54fc5f46911b96781c6923d02b8cdba75c859b2436843533a7a46e127cc",
+    "cohort.csv": "ad06abd657635d37a452e13a2b626302597f3eddb480f5297c0f2f6245f667eb"
+  },
+  "source": "Raw CCLE mutation indicators and PLX4720 Amax response; see experiments/prepare_ccle.py."
+}

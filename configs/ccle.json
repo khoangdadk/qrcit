@@ -1,0 +1,55 @@
+{
+  "model": {
+    "model_type": "residual",
+    "n_folds": 5,
+    "inner_val_frac": 0.2,
+    "n_null_draws": 1000,
+    "u_grid_min": 0.001,
+    "u_grid_max": 0.999,
+    "u_grid_size": 19,
+    "epochs": 80,
+    "patience": 20,
+    "hidden_dims": [
+      32,
+      32
+    ],
+    "batch_size": 64,
+    "lr": 0.001,
+    "weight_decay": 0.001,
+    "dropout": 0.05,
+    "lambda_D": 0.001,
+    "lambda_mono": 0.01,
+    "v2_q0_pretrain_epochs": 40,
+    "v2_d_train_epochs": 60,
+    "v2_q0_pretrain_patience": 10,
+    "v2_d_train_patience": 12,
+    "v2_freeze_q0": true,
+    "v2_d_l2_penalty": 0.0,
+    "v2_mono_penalty": 0.0001,
+    "u_feature_mode": "fourier_rbf",
+    "n_u_fourier": 4,
+    "n_u_rbf": 12,
+    "u_rbf_width": 0.1,
+    "seed": 0,
+    "deterministic": true,
+    "device": "cpu",
+    "lower_u_max": 0.01,
+    "upper_u_min": 0.99
+  },
+  "default_features": [
+    "BRAF.V600E_MUT",
+    "BRAF.MC_MUT",
+    "HIP1_MUT",
+    "CDC42BPA_MUT",
+    "MAP3K5_MUT",
+    "PRKD1_MUT",
+    "FLT3_MUT",
+    "PIP5K1A_MUT",
+    "DNMT1_MUT",
+    "THBS3_MUT"
+  ],
+  "figure_features": [
+    "PIP5K1A_MUT",
+    "HIP1_MUT"
+  ]
+}

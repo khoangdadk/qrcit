@@ -1,0 +1,11 @@
+gene,feature,seed,p_value,reject_at_005,n_null_draws,K,n_folds,source_file
+BRAF.V600E,BRAF.V600E_MUT,0,0.013986,True,1000,19,5,results/ccle/seed0/BRAF.V600E_MUT_seed0.json
+BRAF.MC,BRAF.MC_MUT,0,0.007992,True,1000,19,5,results/ccle/seed0/BRAF.MC_MUT_seed0.json
+HIP1,HIP1_MUT,0,0.074925,False,1000,19,5,results/ccle/seed0/HIP1_MUT_seed0.json
+CDC42BPA,CDC42BPA_MUT,0,0.027972,True,1000,19,5,results/ccle/seed0/CDC42BPA_MUT_seed0.json
+MAP3K5,MAP3K5_MUT,0,1.000000,False,1000,19,5,results/ccle/seed0/MAP3K5_MUT_seed0.json
+PRKD1,PRKD1_MUT,0,0.012987,True,1000,19,5,results/ccle/seed0/PRKD1_MUT_seed0.json
+FLT3,FLT3_MUT,0,0.912088,False,1000,19,5,results/ccle/seed0/FLT3_MUT_seed0.json
+PIP5K1A,PIP5K1A_MUT,0,0.117882,False,1000,19,5,results/ccle/seed0/PIP5K1A_MUT_seed0.json
+DNMT1,DNMT1_MUT,0,0.956044,False,1000,19,5,results/ccle/seed0/DNMT1_MUT_seed0.json
+THBS3,THBS3_MUT,0,0.901099,False,1000,19,5,results/ccle/seed0/THBS3_MUT_seed0.json

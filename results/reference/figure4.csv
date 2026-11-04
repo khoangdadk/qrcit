@@ -1,0 +1,306 @@
+benchmark,variant,sweep,x_value,method,metric,value,time,note
+SDB,context_local,N,250,QRCIT,Power,0.9,8.180783,global
+SDB,context_local,N,250,QRCIT+PG,Power,0.95,8.180783,"summary-level max(global,power_pg)"
+SDB,context_local,N,250,QRCIT+DE,Power,0.9,8.180783,"summary-level max(global,power_de)"
+SDB,mean_neutral_shape,N,250,QRCIT,Power,0.45,8.428905,global
+SDB,mean_neutral_shape,N,250,QRCIT+PG,Power,0.55,8.428905,"summary-level max(global,power_pg)"
+SDB,mean_neutral_shape,N,250,QRCIT+DE,Power,0.65,8.428905,"summary-level max(global,power_de)"
+SDB,moving_u_ridge,N,250,QRCIT,Power,1.0,9.634047,global
+SDB,moving_u_ridge,N,250,QRCIT+PG,Power,1.0,9.634047,"summary-level max(global,power_pg)"
+SDB,moving_u_ridge,N,250,QRCIT+DE,Power,1.0,9.634047,"summary-level max(global,power_de)"
+SDB,sign_reversing,N,250,QRCIT,Power,0.5,8.173982,global
+SDB,sign_reversing,N,250,QRCIT+PG,Power,0.5,8.173982,"summary-level max(global,power_pg)"
+SDB,sign_reversing,N,250,QRCIT+DE,Power,0.5,8.173982,"summary-level max(global,power_de)"
+SDB,tail_only,N,250,QRCIT,Power,0.2,8.377274,global
+SDB,tail_only,N,250,QRCIT+PG,Power,0.65,8.377274,"summary-level max(global,power_pg)"
+SDB,tail_only,N,250,QRCIT+DE,Power,0.35,8.377274,"summary-level max(global,power_de)"
+SDB,context_local,N,500,QRCIT,Power,1.0,13.572592,global
+SDB,context_local,N,500,QRCIT+PG,Power,1.0,13.572592,"summary-level max(global,power_pg)"
+SDB,context_local,N,500,QRCIT+DE,Power,1.0,13.572592,"summary-level max(global,power_de)"
+SDB,mean_neutral_shape,N,500,QRCIT,Power,0.35,10.395855,global
+SDB,mean_neutral_shape,N,500,QRCIT+PG,Power,0.45,10.395855,"summary-level max(global,power_pg)"
+SDB,mean_neutral_shape,N,500,QRCIT+DE,Power,0.9,10.395855,"summary-level max(global,power_de)"
+SDB,moving_u_ridge,N,500,QRCIT,Power,1.0,10.899136,global
+SDB,moving_u_ridge,N,500,QRCIT+PG,Power,1.0,10.899136,"summary-level max(global,power_pg)"
+SDB,moving_u_ridge,N,500,QRCIT+DE,Power,1.0,10.899136,"summary-level max(global,power_de)"
+SDB,sign_reversing,N,500,QRCIT,Power,0.7,11.417118,global
+SDB,sign_reversing,N,500,QRCIT+PG,Power,0.7,11.417118,"summary-level max(global,power_pg)"
+SDB,sign_reversing,N,500,QRCIT+DE,Power,0.7,11.417118,"summary-level max(global,power_de)"
+SDB,tail_only,N,500,QRCIT,Power,0.6,10.145458,global
+SDB,tail_only,N,500,QRCIT+PG,Power,0.95,10.145458,"summary-level max(global,power_pg)"
+SDB,tail_only,N,500,QRCIT+DE,Power,0.7,10.145458,"summary-level max(global,power_de)"
+SDB,context_local,N,1000,QRCIT,Power,1.0,18.69753,global
+SDB,context_local,N,1000,QRCIT+PG,Power,1.0,18.69753,"summary-level max(global,power_pg)"
+SDB,context_local,N,1000,QRCIT+DE,Power,1.0,18.69753,"summary-level max(global,power_de)"
+SDB,mean_neutral_shape,N,1000,QRCIT,Power,0.6,17.738448,global
+SDB,mean_neutral_shape,N,1000,QRCIT+PG,Power,0.85,17.738448,"summary-level max(global,power_pg)"
+SDB,mean_neutral_shape,N,1000,QRCIT+DE,Power,1.0,17.738448,"summary-level max(global,power_de)"
+SDB,moving_u_ridge,N,1000,QRCIT,Power,1.0,19.468251,global
+SDB,moving_u_ridge,N,1000,QRCIT+PG,Power,1.0,19.468251,"summary-level max(global,power_pg)"
+SDB,moving_u_ridge,N,1000,QRCIT+DE,Power,1.0,19.468251,"summary-level max(global,power_de)"
+SDB,sign_reversing,N,1000,QRCIT,Power,1.0,18.723614,global
+SDB,sign_reversing,N,1000,QRCIT+PG,Power,1.0,18.723614,"summary-level max(global,power_pg)"
+SDB,sign_reversing,N,1000,QRCIT+DE,Power,1.0,18.723614,"summary-level max(global,power_de)"
+SDB,tail_only,N,1000,QRCIT,Power,0.85,18.124993,global
+SDB,tail_only,N,1000,QRCIT+PG,Power,1.0,18.124993,"summary-level max(global,power_pg)"
+SDB,tail_only,N,1000,QRCIT+DE,Power,0.9,18.124993,"summary-level max(global,power_de)"
+SDB,context_local,N,1500,QRCIT,Power,1.0,29.820891,global
+SDB,context_local,N,1500,QRCIT+PG,Power,1.0,29.820891,"summary-level max(global,power_pg)"
+SDB,context_local,N,1500,QRCIT+DE,Power,1.0,29.820891,"summary-level max(global,power_de)"
+SDB,mean_neutral_shape,N,1500,QRCIT,Power,0.95,29.709767,global
+SDB,mean_neutral_shape,N,1500,QRCIT+PG,Power,0.95,29.709767,"summary-level max(global,power_pg)"
+SDB,mean_neutral_shape,N,1500,QRCIT+DE,Power,1.0,29.709767,"summary-level max(global,power_de)"
+SDB,moving_u_ridge,N,1500,QRCIT,Power,1.0,26.31889,global
+SDB,moving_u_ridge,N,1500,QRCIT+PG,Power,1.0,26.31889,"summary-level max(global,power_pg)"
+SDB,moving_u_ridge,N,1500,QRCIT+DE,Power,1.0,26.31889,"summary-level max(global,power_de)"
+SDB,sign_reversing,N,1500,QRCIT,Power,1.0,31.005173,global
+SDB,sign_reversing,N,1500,QRCIT+PG,Power,1.0,31.005173,"summary-level max(global,power_pg)"
+SDB,sign_reversing,N,1500,QRCIT+DE,Power,1.0,31.005173,"summary-level max(global,power_de)"
+SDB,tail_only,N,1500,QRCIT,Power,0.95,29.289556,global
+SDB,tail_only,N,1500,QRCIT+PG,Power,1.0,29.289556,"summary-level max(global,power_pg)"
+SDB,tail_only,N,1500,QRCIT+DE,Power,1.0,29.289556,"summary-level max(global,power_de)"
+SDB,context_local,dz,5,QRCIT,Power,1.0,21.040798,global
+SDB,context_local,dz,5,QRCIT+PG,Power,1.0,21.040798,"summary-level max(global,power_pg)"
+SDB,context_local,dz,5,QRCIT+DE,Power,1.0,21.040798,"summary-level max(global,power_de)"
+SDB,mean_neutral_shape,dz,5,QRCIT,Power,0.6,20.645388,global
+SDB,mean_neutral_shape,dz,5,QRCIT+PG,Power,0.85,20.645388,"summary-level max(global,power_pg)"
+SDB,mean_neutral_shape,dz,5,QRCIT+DE,Power,1.0,20.645388,"summary-level max(global,power_de)"
+SDB,moving_u_ridge,dz,5,QRCIT,Power,1.0,21.392573,global
+SDB,moving_u_ridge,dz,5,QRCIT+PG,Power,1.0,21.392573,"summary-level max(global,power_pg)"
+SDB,moving_u_ridge,dz,5,QRCIT+DE,Power,1.0,21.392573,"summary-level max(global,power_de)"
+SDB,sign_reversing,dz,5,QRCIT,Power,1.0,22.087463,global
+SDB,sign_reversing,dz,5,QRCIT+PG,Power,1.0,22.087463,"summary-level max(global,power_pg)"
+SDB,sign_reversing,dz,5,QRCIT+DE,Power,1.0,22.087463,"summary-level max(global,power_de)"
+SDB,tail_only,dz,5,QRCIT,Power,0.85,20.92122,global
+SDB,tail_only,dz,5,QRCIT+PG,Power,1.0,20.92122,"summary-level max(global,power_pg)"
+SDB,tail_only,dz,5,QRCIT+DE,Power,0.9,20.92122,"summary-level max(global,power_de)"
+SDB,context_local,dz,10,QRCIT,Power,1.0,20.799847,global
+SDB,context_local,dz,10,QRCIT+PG,Power,1.0,20.799847,"summary-level max(global,power_pg)"
+SDB,context_local,dz,10,QRCIT+DE,Power,1.0,20.799847,"summary-level max(global,power_de)"
+SDB,mean_neutral_shape,dz,10,QRCIT,Power,0.55,21.082478,global
+SDB,mean_neutral_shape,dz,10,QRCIT+PG,Power,0.65,21.082478,"summary-level max(global,power_pg)"
+SDB,mean_neutral_shape,dz,10,QRCIT+DE,Power,1.0,21.082478,"summary-level max(global,power_de)"
+SDB,moving_u_ridge,dz,10,QRCIT,Power,1.0,21.456618,global
+SDB,moving_u_ridge,dz,10,QRCIT+PG,Power,1.0,21.456618,"summary-level max(global,power_pg)"
+SDB,moving_u_ridge,dz,10,QRCIT+DE,Power,1.0,21.456618,"summary-level max(global,power_de)"
+SDB,sign_reversing,dz,10,QRCIT,Power,0.85,21.37348,global
+SDB,sign_reversing,dz,10,QRCIT+PG,Power,0.95,21.37348,"summary-level max(global,power_pg)"
+SDB,sign_reversing,dz,10,QRCIT+DE,Power,0.85,21.37348,"summary-level max(global,power_de)"
+SDB,tail_only,dz,10,QRCIT,Power,0.9,21.600791,global
+SDB,tail_only,dz,10,QRCIT+PG,Power,1.0,21.600791,"summary-level max(global,power_pg)"
+SDB,tail_only,dz,10,QRCIT+DE,Power,1.0,21.600791,"summary-level max(global,power_de)"
+SDB,context_local,dz,20,QRCIT,Power,1.0,21.84334,global
+SDB,context_local,dz,20,QRCIT+PG,Power,1.0,21.84334,"summary-level max(global,power_pg)"
+SDB,context_local,dz,20,QRCIT+DE,Power,1.0,21.84334,"summary-level max(global,power_de)"
+SDB,mean_neutral_shape,dz,20,QRCIT,Power,0.65,21.131921,global
+SDB,mean_neutral_shape,dz,20,QRCIT+PG,Power,0.85,21.131921,"summary-level max(global,power_pg)"
+SDB,mean_neutral_shape,dz,20,QRCIT+DE,Power,0.9,21.131921,"summary-level max(global,power_de)"
+SDB,moving_u_ridge,dz,20,QRCIT,Power,1.0,21.287888,global
+SDB,moving_u_ridge,dz,20,QRCIT+PG,Power,1.0,21.287888,"summary-level max(global,power_pg)"
+SDB,moving_u_ridge,dz,20,QRCIT+DE,Power,1.0,21.287888,"summary-level max(global,power_de)"
+SDB,sign_reversing,dz,20,QRCIT,Power,0.85,20.81797,global
+SDB,sign_reversing,dz,20,QRCIT+PG,Power,0.9,20.81797,"summary-level max(global,power_pg)"
+SDB,sign_reversing,dz,20,QRCIT+DE,Power,0.85,20.81797,"summary-level max(global,power_de)"
+SDB,tail_only,dz,20,QRCIT,Power,0.9,21.66461,global
+SDB,tail_only,dz,20,QRCIT+PG,Power,1.0,21.66461,"summary-level max(global,power_pg)"
+SDB,tail_only,dz,20,QRCIT+DE,Power,0.95,21.66461,"summary-level max(global,power_de)"
+SDB,context_local,dz,50,QRCIT,Power,1.0,19.707059,global
+SDB,context_local,dz,50,QRCIT+PG,Power,1.0,19.707059,"summary-level max(global,power_pg)"
+SDB,context_local,dz,50,QRCIT+DE,Power,1.0,19.707059,"summary-level max(global,power_de)"
+SDB,mean_neutral_shape,dz,50,QRCIT,Power,0.55,19.520147,global
+SDB,mean_neutral_shape,dz,50,QRCIT+PG,Power,0.9,19.520147,"summary-level max(global,power_pg)"
+SDB,mean_neutral_shape,dz,50,QRCIT+DE,Power,0.95,19.520147,"summary-level max(global,power_de)"
+SDB,moving_u_ridge,dz,50,QRCIT,Power,1.0,19.924927,global
+SDB,moving_u_ridge,dz,50,QRCIT+PG,Power,1.0,19.924927,"summary-level max(global,power_pg)"
+SDB,moving_u_ridge,dz,50,QRCIT+DE,Power,1.0,19.924927,"summary-level max(global,power_de)"
+SDB,sign_reversing,dz,50,QRCIT,Power,0.5,20.003779,global
+SDB,sign_reversing,dz,50,QRCIT+PG,Power,0.65,20.003779,"summary-level max(global,power_pg)"
+SDB,sign_reversing,dz,50,QRCIT+DE,Power,0.95,20.003779,"summary-level max(global,power_de)"
+SDB,tail_only,dz,50,QRCIT,Power,0.9,19.785363,global
+SDB,tail_only,dz,50,QRCIT+PG,Power,1.0,19.785363,"summary-level max(global,power_pg)"
+SDB,tail_only,dz,50,QRCIT+DE,Power,0.95,19.785363,"summary-level max(global,power_de)"
+SDB,context_local,N,250,GCM,Power,0.7,0.011823,separated_variant summary row
+SDB,mean_neutral_shape,N,250,GCM,Power,0.1,0.009539,separated_variant summary row
+SDB,moving_u_ridge,N,250,GCM,Power,0.9,0.009977,separated_variant summary row
+SDB,sign_reversing,N,250,GCM,Power,0.0,0.013034,separated_variant summary row
+SDB,tail_only,N,250,GCM,Power,0.25,0.009607,separated_variant summary row
+SDB,context_local,N,500,GCM,Power,0.8,0.030413,separated_variant summary row
+SDB,mean_neutral_shape,N,500,GCM,Power,0.05,0.028765,separated_variant summary row
+SDB,moving_u_ridge,N,500,GCM,Power,1.0,0.027254,separated_variant summary row
+SDB,sign_reversing,N,500,GCM,Power,0.2,0.030587,separated_variant summary row
+SDB,tail_only,N,500,GCM,Power,0.3,0.027066,separated_variant summary row
+SDB,context_local,N,1000,GCM,Power,1.0,0.191726,separated_variant summary row
+SDB,mean_neutral_shape,N,1000,GCM,Power,0.05,0.209248,separated_variant summary row
+SDB,moving_u_ridge,N,1000,GCM,Power,1.0,0.190607,separated_variant summary row
+SDB,sign_reversing,N,1000,GCM,Power,0.1,0.181382,separated_variant summary row
+SDB,tail_only,N,1000,GCM,Power,0.45,0.18435,separated_variant summary row
+SDB,context_local,N,1500,GCM,Power,0.95,0.648696,separated_variant summary row
+SDB,mean_neutral_shape,N,1500,GCM,Power,0.1,0.693808,separated_variant summary row
+SDB,moving_u_ridge,N,1500,GCM,Power,0.9,0.663468,separated_variant summary row
+SDB,sign_reversing,N,1500,GCM,Power,0.05,0.684554,separated_variant summary row
+SDB,tail_only,N,1500,GCM,Power,0.65,0.676692,separated_variant summary row
+SDB,context_local,dz,5,GCM,Power,1.0,0.200463,separated_variant summary row
+SDB,mean_neutral_shape,dz,5,GCM,Power,0.05,0.203389,separated_variant summary row
+SDB,moving_u_ridge,dz,5,GCM,Power,1.0,0.197496,separated_variant summary row
+SDB,sign_reversing,dz,5,GCM,Power,0.1,0.195915,separated_variant summary row
+SDB,tail_only,dz,5,GCM,Power,0.45,0.222238,separated_variant summary row
+SDB,context_local,dz,10,GCM,Power,0.85,0.203866,separated_variant summary row
+SDB,mean_neutral_shape,dz,10,GCM,Power,0.0,0.19916,separated_variant summary row
+SDB,moving_u_ridge,dz,10,GCM,Power,1.0,0.199908,separated_variant summary row
+SDB,sign_reversing,dz,10,GCM,Power,0.0,0.214103,separated_variant summary row
+SDB,tail_only,dz,10,GCM,Power,0.55,0.215886,separated_variant summary row
+SDB,context_local,dz,20,GCM,Power,0.95,0.203223,separated_variant summary row
+SDB,mean_neutral_shape,dz,20,GCM,Power,0.05,0.203355,separated_variant summary row
+SDB,moving_u_ridge,dz,20,GCM,Power,1.0,0.213102,separated_variant summary row
+SDB,sign_reversing,dz,20,GCM,Power,0.15,0.224237,separated_variant summary row
+SDB,tail_only,dz,20,GCM,Power,0.45,0.207219,separated_variant summary row
+SDB,context_local,dz,50,GCM,Power,0.9,0.221281,separated_variant summary row
+SDB,mean_neutral_shape,dz,50,GCM,Power,0.05,0.211794,separated_variant summary row
+SDB,moving_u_ridge,dz,50,GCM,Power,1.0,0.214924,separated_variant summary row
+SDB,sign_reversing,dz,50,GCM,Power,0.05,0.227987,separated_variant summary row
+SDB,tail_only,dz,50,GCM,Power,0.55,0.214667,separated_variant summary row
+SDB,context_local,N,250,SGMCIT,Power,0.35,0.565682,separated_variant summary row
+SDB,mean_neutral_shape,N,250,SGMCIT,Power,0.9,0.562895,separated_variant summary row
+SDB,moving_u_ridge,N,250,SGMCIT,Power,0.55,0.554953,separated_variant summary row
+SDB,sign_reversing,N,250,SGMCIT,Power,0.2,0.562505,separated_variant summary row
+SDB,tail_only,N,250,SGMCIT,Power,0.1,0.551536,separated_variant summary row
+SDB,context_local,N,500,SGMCIT,Power,0.7,0.91201,separated_variant summary row
+SDB,mean_neutral_shape,N,500,SGMCIT,Power,1.0,1.194056,separated_variant summary row
+SDB,moving_u_ridge,N,500,SGMCIT,Power,1.0,0.993262,separated_variant summary row
+SDB,sign_reversing,N,500,SGMCIT,Power,0.2,0.999547,separated_variant summary row
+SDB,tail_only,N,500,SGMCIT,Power,0.25,1.079549,separated_variant summary row
+SDB,context_local,N,1000,SGMCIT,Power,1.0,1.811164,separated_variant summary row
+SDB,mean_neutral_shape,N,1000,SGMCIT,Power,1.0,1.932603,separated_variant summary row
+SDB,moving_u_ridge,N,1000,SGMCIT,Power,1.0,1.927961,separated_variant summary row
+SDB,sign_reversing,N,1000,SGMCIT,Power,0.6,1.808213,separated_variant summary row
+SDB,tail_only,N,1000,SGMCIT,Power,0.6,1.903899,separated_variant summary row
+SDB,context_local,N,1500,SGMCIT,Power,1.0,2.74184,separated_variant summary row
+SDB,mean_neutral_shape,N,1500,SGMCIT,Power,1.0,2.835975,separated_variant summary row
+SDB,moving_u_ridge,N,1500,SGMCIT,Power,1.0,2.762322,separated_variant summary row
+SDB,sign_reversing,N,1500,SGMCIT,Power,0.85,2.725115,separated_variant summary row
+SDB,tail_only,N,1500,SGMCIT,Power,0.95,2.703974,separated_variant summary row
+SDB,context_local,dz,5,SGMCIT,Power,1.0,1.806039,separated_variant summary row
+SDB,mean_neutral_shape,dz,5,SGMCIT,Power,1.0,1.833898,separated_variant summary row
+SDB,moving_u_ridge,dz,5,SGMCIT,Power,1.0,1.825227,separated_variant summary row
+SDB,sign_reversing,dz,5,SGMCIT,Power,0.6,1.817998,separated_variant summary row
+SDB,tail_only,dz,5,SGMCIT,Power,0.6,1.796135,separated_variant summary row
+SDB,context_local,dz,10,SGMCIT,Power,1.0,1.864458,separated_variant summary row
+SDB,mean_neutral_shape,dz,10,SGMCIT,Power,1.0,1.901978,separated_variant summary row
+SDB,moving_u_ridge,dz,10,SGMCIT,Power,1.0,1.900416,separated_variant summary row
+SDB,sign_reversing,dz,10,SGMCIT,Power,0.35,1.862702,separated_variant summary row
+SDB,tail_only,dz,10,SGMCIT,Power,0.75,1.884706,separated_variant summary row
+SDB,context_local,dz,20,SGMCIT,Power,1.0,1.931027,separated_variant summary row
+SDB,mean_neutral_shape,dz,20,SGMCIT,Power,1.0,1.927431,separated_variant summary row
+SDB,moving_u_ridge,dz,20,SGMCIT,Power,1.0,1.923708,separated_variant summary row
+SDB,sign_reversing,dz,20,SGMCIT,Power,0.55,1.922062,separated_variant summary row
+SDB,tail_only,dz,20,SGMCIT,Power,0.65,1.918203,separated_variant summary row
+SDB,context_local,dz,50,SGMCIT,Power,0.95,1.902012,separated_variant summary row
+SDB,mean_neutral_shape,dz,50,SGMCIT,Power,1.0,1.880506,separated_variant summary row
+SDB,moving_u_ridge,dz,50,SGMCIT,Power,1.0,1.897041,separated_variant summary row
+SDB,sign_reversing,dz,50,SGMCIT,Power,0.55,1.884732,separated_variant summary row
+SDB,tail_only,dz,50,SGMCIT,Power,0.8,1.88625,separated_variant summary row
+SDB,context_local,N,250,CDCIT,Power,0.1,3.911124,separated_variant summary row
+SDB,mean_neutral_shape,N,250,CDCIT,Power,0.05,3.981395,separated_variant summary row
+SDB,moving_u_ridge,N,250,CDCIT,Power,0.1,4.143936,separated_variant summary row
+SDB,sign_reversing,N,250,CDCIT,Power,0.05,3.918794,separated_variant summary row
+SDB,tail_only,N,250,CDCIT,Power,0.0,3.951861,separated_variant summary row
+SDB,context_local,N,500,CDCIT,Power,0.05,4.99007,separated_variant summary row
+SDB,mean_neutral_shape,N,500,CDCIT,Power,0.3,4.951628,separated_variant summary row
+SDB,moving_u_ridge,N,500,CDCIT,Power,0.15,4.922349,separated_variant summary row
+SDB,sign_reversing,N,500,CDCIT,Power,0.05,5.022151,separated_variant summary row
+SDB,tail_only,N,500,CDCIT,Power,0.1,5.145341,separated_variant summary row
+SDB,context_local,N,1000,CDCIT,Power,0.25,6.793677,separated_variant summary row
+SDB,mean_neutral_shape,N,1000,CDCIT,Power,0.25,7.028994,separated_variant summary row
+SDB,moving_u_ridge,N,1000,CDCIT,Power,0.2,7.239764,separated_variant summary row
+SDB,sign_reversing,N,1000,CDCIT,Power,0.15,6.720431,separated_variant summary row
+SDB,tail_only,N,1000,CDCIT,Power,0.15,6.713718,separated_variant summary row
+SDB,context_local,N,1500,CDCIT,Power,0.3,9.22533,separated_variant summary row
+SDB,mean_neutral_shape,N,1500,CDCIT,Power,0.3,9.209399,separated_variant summary row
+SDB,moving_u_ridge,N,1500,CDCIT,Power,0.3,9.474559,separated_variant summary row
+SDB,sign_reversing,N,1500,CDCIT,Power,0.2,8.875286,separated_variant summary row
+SDB,tail_only,N,1500,CDCIT,Power,0.1,9.332093,separated_variant summary row
+SDB,context_local,dz,5,CDCIT,Power,0.25,6.863027,separated_variant summary row
+SDB,mean_neutral_shape,dz,5,CDCIT,Power,0.25,6.653331,separated_variant summary row
+SDB,moving_u_ridge,dz,5,CDCIT,Power,0.2,6.685643,separated_variant summary row
+SDB,sign_reversing,dz,5,CDCIT,Power,0.15,6.553966,separated_variant summary row
+SDB,tail_only,dz,5,CDCIT,Power,0.15,6.891192,separated_variant summary row
+SDB,context_local,dz,10,CDCIT,Power,0.15,6.875498,separated_variant summary row
+SDB,mean_neutral_shape,dz,10,CDCIT,Power,0.2,7.428487,separated_variant summary row
+SDB,moving_u_ridge,dz,10,CDCIT,Power,0.45,7.162152,separated_variant summary row
+SDB,sign_reversing,dz,10,CDCIT,Power,0.05,6.980818,separated_variant summary row
+SDB,tail_only,dz,10,CDCIT,Power,0.05,6.911419,separated_variant summary row
+SDB,context_local,dz,20,CDCIT,Power,0.15,6.752574,separated_variant summary row
+SDB,mean_neutral_shape,dz,20,CDCIT,Power,0.2,7.278801,separated_variant summary row
+SDB,moving_u_ridge,dz,20,CDCIT,Power,0.25,7.244251,separated_variant summary row
+SDB,sign_reversing,dz,20,CDCIT,Power,0.15,6.849422,separated_variant summary row
+SDB,tail_only,dz,20,CDCIT,Power,0.1,6.730752,separated_variant summary row
+SDB,context_local,dz,50,CDCIT,Power,0.2,7.028697,separated_variant summary row
+SDB,mean_neutral_shape,dz,50,CDCIT,Power,0.25,7.25499,separated_variant summary row
+SDB,moving_u_ridge,dz,50,CDCIT,Power,0.25,6.980566,separated_variant summary row
+SDB,sign_reversing,dz,50,CDCIT,Power,0.1,7.758809,separated_variant summary row
+SDB,tail_only,dz,50,CDCIT,Power,0.1,7.215501,separated_variant summary row
+SDB,context_local,N,250,KCI,Power,0.5,4.151706,separated_variant summary row
+SDB,mean_neutral_shape,N,250,KCI,Power,0.6,4.112568,separated_variant summary row
+SDB,moving_u_ridge,N,250,KCI,Power,0.6,4.11331,separated_variant summary row
+SDB,sign_reversing,N,250,KCI,Power,0.25,4.100699,separated_variant summary row
+SDB,tail_only,N,250,KCI,Power,0.1,4.192611,separated_variant summary row
+SDB,context_local,N,500,KCI,Power,0.55,11.897201,separated_variant summary row
+SDB,mean_neutral_shape,N,500,KCI,Power,1.0,11.739351,separated_variant summary row
+SDB,moving_u_ridge,N,500,KCI,Power,1.0,11.493357,separated_variant summary row
+SDB,sign_reversing,N,500,KCI,Power,0.45,11.737639,separated_variant summary row
+SDB,tail_only,N,500,KCI,Power,0.2,11.881274,separated_variant summary row
+SDB,context_local,N,1000,KCI,Power,0.65,116.809778,separated_variant summary row
+SDB,mean_neutral_shape,N,1000,KCI,Power,0.9,114.861556,separated_variant summary row
+SDB,moving_u_ridge,N,1000,KCI,Power,0.75,115.501737,separated_variant summary row
+SDB,sign_reversing,N,1000,KCI,Power,0.4,115.913955,separated_variant summary row
+SDB,tail_only,N,1000,KCI,Power,0.1,115.25582,separated_variant summary row
+SDB,context_local,N,250,PM-KCI,Power,0.55,9.262432,separated_variant summary row
+SDB,mean_neutral_shape,N,250,PM-KCI,Power,0.7,9.144677,separated_variant summary row
+SDB,moving_u_ridge,N,250,PM-KCI,Power,0.85,8.944545,separated_variant summary row
+SDB,sign_reversing,N,250,PM-KCI,Power,0.25,8.810492,separated_variant summary row
+SDB,tail_only,N,250,PM-KCI,Power,0.15,8.755118,separated_variant summary row
+SDB,context_local,N,500,PM-KCI,Power,0.55,42.664647,separated_variant summary row
+SDB,mean_neutral_shape,N,500,PM-KCI,Power,1.0,43.171999,separated_variant summary row
+SDB,moving_u_ridge,N,500,PM-KCI,Power,1.0,42.995197,separated_variant summary row
+SDB,sign_reversing,N,500,PM-KCI,Power,0.55,42.628,separated_variant summary row
+SDB,tail_only,N,500,PM-KCI,Power,0.05,42.841653,separated_variant summary row
+SDB,context_local,N,250,NNLSCIT,Power,0.1,0.03583,separated_variant summary row
+SDB,mean_neutral_shape,N,250,NNLSCIT,Power,0.15,0.037422,separated_variant summary row
+SDB,moving_u_ridge,N,250,NNLSCIT,Power,0.3,0.037439,separated_variant summary row
+SDB,sign_reversing,N,250,NNLSCIT,Power,0.05,0.036354,separated_variant summary row
+SDB,tail_only,N,250,NNLSCIT,Power,0.0,0.037194,separated_variant summary row
+SDB,context_local,N,500,NNLSCIT,Power,0.2,0.04842,separated_variant summary row
+SDB,mean_neutral_shape,N,500,NNLSCIT,Power,0.2,0.051102,separated_variant summary row
+SDB,moving_u_ridge,N,500,NNLSCIT,Power,0.3,0.047799,separated_variant summary row
+SDB,sign_reversing,N,500,NNLSCIT,Power,0.05,0.049634,separated_variant summary row
+SDB,tail_only,N,500,NNLSCIT,Power,0.05,0.051932,separated_variant summary row
+SDB,context_local,N,1000,NNLSCIT,Power,0.45,0.057174,separated_variant summary row
+SDB,mean_neutral_shape,N,1000,NNLSCIT,Power,0.4,0.056594,separated_variant summary row
+SDB,moving_u_ridge,N,1000,NNLSCIT,Power,0.75,0.056829,separated_variant summary row
+SDB,sign_reversing,N,1000,NNLSCIT,Power,0.2,0.056908,separated_variant summary row
+SDB,tail_only,N,1000,NNLSCIT,Power,0.15,0.057615,separated_variant summary row
+SDB,context_local,N,1500,NNLSCIT,Power,0.45,0.058972,separated_variant summary row
+SDB,mean_neutral_shape,N,1500,NNLSCIT,Power,0.8,0.059503,separated_variant summary row
+SDB,moving_u_ridge,N,1500,NNLSCIT,Power,0.75,0.060568,separated_variant summary row
+SDB,sign_reversing,N,1500,NNLSCIT,Power,0.1,0.059294,separated_variant summary row
+SDB,tail_only,N,1500,NNLSCIT,Power,0.3,0.061059,separated_variant summary row
+SDB,context_local,dz,5,NNLSCIT,Power,0.45,0.060395,long summary row
+SDB,context_local,dz,10,NNLSCIT,Power,0.3,0.07368,long summary row
+SDB,context_local,dz,20,NNLSCIT,Power,0.5,0.100854,long summary row
+SDB,context_local,dz,50,NNLSCIT,Power,0.1,0.196256,long summary row
+SDB,mean_neutral_shape,dz,5,NNLSCIT,Power,0.4,0.0559,long summary row
+SDB,mean_neutral_shape,dz,10,NNLSCIT,Power,0.4,0.074627,long summary row
+SDB,mean_neutral_shape,dz,20,NNLSCIT,Power,0.5,0.104166,long summary row
+SDB,mean_neutral_shape,dz,50,NNLSCIT,Power,0.3,0.190828,long summary row
+SDB,moving_u_ridge,dz,5,NNLSCIT,Power,0.75,0.053386,long summary row
+SDB,moving_u_ridge,dz,10,NNLSCIT,Power,0.45,0.075731,long summary row
+SDB,moving_u_ridge,dz,20,NNLSCIT,Power,0.65,0.10158,long summary row
+SDB,moving_u_ridge,dz,50,NNLSCIT,Power,0.5,0.203654,long summary row
+SDB,sign_reversing,dz,5,NNLSCIT,Power,0.2,0.106124,long summary row
+SDB,sign_reversing,dz,10,NNLSCIT,Power,0.0,0.069916,long summary row
+SDB,sign_reversing,dz,20,NNLSCIT,Power,0.05,0.100708,long summary row
+SDB,sign_reversing,dz,50,NNLSCIT,Power,0.05,0.18988,long summary row
+SDB,tail_only,dz,5,NNLSCIT,Power,0.15,0.057309,long summary row
+SDB,tail_only,dz,10,NNLSCIT,Power,0.1,0.07232,long summary row
+SDB,tail_only,dz,20,NNLSCIT,Power,0.1,0.10141,long summary row
+SDB,tail_only,dz,50,NNLSCIT,Power,0.15,0.195056,long summary row

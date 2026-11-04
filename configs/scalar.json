@@ -1,0 +1,28 @@
+{
+  "eval_mode": "crossfit",
+  "test_stat_mode": "predictive_gain",
+  "calibration_mode": "conditional_randomization",
+  "y_resampler": "standardized_residual_bootstrap",
+  "n_folds": 5,
+  "n_null_draws": 20,
+  "epochs": 80,
+  "patience": 20,
+  "hidden_dims": [
+    32,
+    32
+  ],
+  "batch_size": 64,
+  "lr": 0.001,
+  "weight_decay": 0.001,
+  "dropout": 0.05,
+  "lambda_D": 0.001,
+  "lambda_mono": 0.01,
+  "device": "cpu",
+  "seed": 0,
+  "deterministic": true,
+  "u_grid_size": 9,
+  "model_type": "residual",
+  "u_feature_mode": "qnorm",
+  "sdb_region_pvalue_enabled": false,
+  "sdb_region_pvalue_decision": false
+}

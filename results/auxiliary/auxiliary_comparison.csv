@@ -1,0 +1,5 @@
+profile,K,beta,n_trials,actual_value,expected_paper_value,matches_paper,status
+role_swap,9,0.0,100,0.04,0.04,True,completed_rerun
+role_swap,9,0.5,100,0.98,0.98,True,completed_rerun
+multivariate_K9,9,0.0,100,0.0,0.0,True,completed_rerun
+multivariate_K9,9,0.5,100,0.97,1.0,False,completed_rerun

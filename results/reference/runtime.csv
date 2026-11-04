@@ -1,0 +1,29 @@
+method,N,fit_runtime_for_report_sec,runtime_rule,mean_reported_time_sec,mean_fit_time_sec
+CDCIT,250,3.675502,mean_fit_time_sec,3.70279,3.675502
+CDCIT,500,4.944818,mean_fit_time_sec,4.977856,4.944818
+CDCIT,1000,6.914483,mean_fit_time_sec,6.957351,6.914483
+CDCIT,1500,8.461875,mean_fit_time_sec,8.511949,8.461875
+GCM,250,0.006984,mean_fit_time_sec,0.007522,0.006984
+GCM,500,0.032412,mean_fit_time_sec,0.033325,0.032412
+GCM,1000,0.588882,mean_fit_time_sec,0.591354,0.588882
+GCM,1500,0.738217,mean_fit_time_sec,0.739716,0.738217
+KCI,250,4.493856,mean_fit_time_sec,4.499229,4.493856
+KCI,500,25.300617,mean_fit_time_sec,25.322373,25.300617
+KCI,1000,114.707635,supplemental avg reported time from raw note,114.707635,
+KCI,1500,378.46369,supplemental avg reported time from raw note,378.46369,
+NNLSCIT,250,0.0388867,mean_reported_time_sec,0.0388867,0.0
+NNLSCIT,500,0.05227544,mean_reported_time_sec,0.05227544,0.0
+NNLSCIT,1000,0.06400618,mean_reported_time_sec,0.06400618,0.0
+NNLSCIT,1500,0.06842385,mean_reported_time_sec,0.06842385,0.0
+PM-KCI,250,5.660886,mean_fit_time_sec,5.664628,5.660886
+PM-KCI,500,17.989433,mean_fit_time_sec,18.000061,17.989433
+PM-KCI,1000,159.605318,supplemental avg reported time from raw note,159.605318,
+PM-KCI,1500,570.014492,supplemental avg reported time from raw note,570.014492,
+QRCIT,250,1.4899284,mean_fit_time_sec / 5 cross-fitting folds,7.484031,7.449642
+QRCIT,500,2.4329436,mean_fit_time_sec / 5 cross-fitting folds,12.202813,12.164718
+QRCIT,1000,4.2535274,mean_fit_time_sec / 5 cross-fitting folds,21.306807,21.267637
+QRCIT,1500,4.1379068,mean_fit_time_sec / 5 cross-fitting folds,20.722064,20.689534
+SGMCIT,250,0.561688,mean_fit_time_sec,0.565519,0.561688
+SGMCIT,500,0.943577,mean_fit_time_sec,0.947538,0.943577
+SGMCIT,1000,1.78854,mean_fit_time_sec,1.792541,1.78854
+SGMCIT,1500,2.834294,mean_fit_time_sec,2.838568,2.834294

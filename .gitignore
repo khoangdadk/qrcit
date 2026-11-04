@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+build/
+dist/
+artifacts/
+runs/
+.ruff_cache/
+.DS_Store
+data/ccle/raw/

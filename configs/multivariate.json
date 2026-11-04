@@ -1,0 +1,38 @@
+{
+  "n_projections": 8,
+  "aggregation": "cauchy",
+  "projection_seed": 123,
+  "include_coordinate_projections": true,
+  "base_config": {
+    "model_type": "residual",
+    "eval_mode": "crossfit",
+    "test_stat_mode": "predictive_gain",
+    "calibration_mode": "conditional_randomization",
+    "y_resampler": "learned_gaussian",
+    "n_folds": 5,
+    "inner_val_frac": 0.2,
+    "n_null_draws": 20,
+    "u_grid_size": 9,
+    "epochs": 80,
+    "batch_size": 64,
+    "lr": 0.001,
+    "weight_decay": 0.001,
+    "dropout": 0.05,
+    "hidden_dims": [
+      32,
+      32
+    ],
+    "lambda_D": 0.001,
+    "lambda_mono": 0.01,
+    "patience": 20,
+    "u_feature_mode": "fourier_rbf",
+    "device": "cpu",
+    "seed": 0,
+    "deterministic": true,
+    "n_u_fourier": 4,
+    "n_u_rbf": 12,
+    "u_rbf_width": 0.1,
+    "sdb_region_pvalue_enabled": false,
+    "sdb_region_pvalue_decision": false
+  }
+}

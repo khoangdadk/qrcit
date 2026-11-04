@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qrcit"
+version = "1.0.0"
+description = "Structural conditional independence testing via neural quantile resolution"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Khoa Nguyen"}, {name = "Bao Duong"}, {name = "Thin Nguyen"}]
+dependencies = ["numpy>=1.24", "scipy>=1.10", "pandas>=2.0", "scikit-learn>=1.3", "torch>=2.2", "matplotlib>=3.7", "threadpoolctl>=3.1"]
+
+[project.optional-dependencies]
+metabric = ["xgboost>=2.0"]
+
+[tool.setuptools.packages.find]
+include = ["qrcit*"]
+
+[project.urls]
+Repository = "https://github.com/khoangdadk/qrcit"

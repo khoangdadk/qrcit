@@ -1,0 +1,12 @@
+{
+  "archived_checksums": {
+    "data/metabric/reconstruction.json": "dbedd19753765c5b3d5103f743435269278c59eb0983432252cca34c68d89167",
+    "data/metabric/cohort.csv": "89b4db16e9cd6bbd7ab46e7932b0f29fdc737994ebe1ddfc1ec4186c223928f7",
+    "data/metabric/genes.txt": "5ef7fc013aa34adf6ed22f37eb6fc2d2b3eee15dfaead102e411a876d894a089",
+    "results/metabric/paper_summary.csv": "dfa0aa830cabb89866934c5161f7304076e21d5e4848661fccf2097cd57a5e82",
+    "results/metabric/downstream_summary.csv": "d58989aa9a65285055ff1d6c57c0ca9be3b78808a9b8f020716f1d0e6f29d0ae",
+    "results/metabric/gene_results.csv": "29891552cf991f768f8431f2aeb0916ea680db454f7c5a99952145aeab24ccd4"
+  },
+  "executed_null_draws": 200,
+  "downstream_protocol": "Tune once per selected set, then use fixed parameters over 50 train/test splits."
+}
