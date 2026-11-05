@@ -222,7 +222,7 @@ python -m experiments.plot_ccle --out artifacts/ccle
 <p align="center">
   <img src="results/ccle/figure1b.png" width="70%" alt="Estimated quantile changes in PLX4720 response for two mutation indicators">
 </p>
-<p align="center"><sub>Example output: estimated changes in PLX4720 response (Amax; more negative means stronger growth inhibition) across quantile levels for PIP5K1A and HIP1 mutation status.</sub></p>
+<p align="center"><sub>Estimated changes in PLX4720 response (Amax; more negative means stronger growth inhibition) across quantile levels for PIP5K1A and HIP1 mutation status.</sub></p>
 
 ## Layout
 
