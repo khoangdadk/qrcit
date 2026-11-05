@@ -31,9 +31,18 @@ class MethodResult:
     reported_time_sec: float = 0.0
     metadata: dict[str, Any] = field(default_factory=dict)
     error: str | None = None
+    # Held-out deformation field, set by quantile tests for scalar X:
+    # u_grid has shape (K,), deformation[i, k] = Q1(Y_i, Z_i, u_k) - Q0(Z_i, u_k)
+    # in the units of X, with shape (n, K). Not included in to_row().
+    u_grid: Any = field(default=None, repr=False, compare=False)
+    deformation: Any = field(default=None, repr=False, compare=False)
 
     def to_row(self) -> dict[str, Any]:
-        row = self.__dict__.copy()
+        row = {
+            k: v
+            for k, v in self.__dict__.items()
+            if k not in ("u_grid", "deformation")
+        }
         row["metadata"] = repr(row["metadata"])
         return row
 

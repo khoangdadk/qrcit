@@ -31,7 +31,12 @@ class QRCIT(QuantileTest):
 
 
 def test_independence(X, Y, Z, *, config=None, alpha=0.05):
-    """Return a MethodResult for scalar X; arrays have shape (n, dimension)."""
+    """Return a MethodResult for scalar X; arrays have shape (n, dimension).
+
+    Besides ``p_value``, the result holds the held-out deformation field:
+    ``result.u_grid`` (K quantile levels) and ``result.deformation`` with shape
+    (n, K), where entry (i, k) is Q1(Y_i, Z_i, u_k) - Q0(Z_i, u_k) in units of X.
+    """
     cfg = config or QRCITConfig()
     if isinstance(cfg, dict):
         cfg = QRCITConfig(**cfg)

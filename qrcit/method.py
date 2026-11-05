@@ -234,6 +234,13 @@ class QuantileTest(CITMethod):
                 "standardizer"
             ].x_std
 
+        # Held-out deformation in the original units of X (undo each fold's X scale).
+        deformation = np.zeros_like(delta_full)
+        for fd in folds:
+            deformation[fd["test_idx"]] = (
+                np.asarray(fd["delta"], dtype=np.float32) * fd["standardizer"].x_std
+            )
+
         stat = predictive_gain_stat(Xstd_full, q0_full, q1_full, u_grid)
         region_mask = None
         region_info = {}
@@ -393,4 +400,6 @@ class QuantileTest(CITMethod):
             **deformation_diagnostics(delta_full, None),
             **sdb_struct_diagnostics(delta_full, data, u_grid),
         }
+        result.u_grid = np.asarray(u_grid, dtype=np.float32).copy()
+        result.deformation = deformation
         return result

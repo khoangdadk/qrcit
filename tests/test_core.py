@@ -51,6 +51,10 @@ class CoreChecks(unittest.TestCase):
         result = test_independence(data.X, data.Y, data.Z, config=cfg)
         self.assertIsNone(result.error)
         self.assertTrue(0 <= result.p_value <= 1)
+        self.assertEqual(result.u_grid.shape, (cfg.u_grid_size,))
+        self.assertEqual(result.deformation.shape, (data.n, cfg.u_grid_size))
+        self.assertTrue(np.isfinite(result.deformation).all())
+        self.assertNotIn("deformation", result.to_row())
 
     def test_real_regional_calibration(self):
         torch.set_num_threads(1)
