@@ -237,8 +237,6 @@ tests/         unit tests
 
 ## Citation
 
-If you use QRCIT, please cite:
-
 ```bibtex
 @inproceedings{nguyen2026qrcit,
   title     = {Structural Conditional Independence Test via Neural Quantile Resolution},
@@ -247,6 +245,3 @@ If you use QRCIT, please cite:
   year      = {2026}
 }
 ```
-
-Please also acknowledge the original Sachs, METABRIC/cBioPortal and CCLE datasets
-when using their data. Software citation metadata is in [CITATION.cff](CITATION.cff).
