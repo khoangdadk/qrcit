@@ -20,7 +20,7 @@ QRCIT also shows *where* and *how*.**
 <p align="center">
   <img src="docs/assets/teaser.png" width="90%" alt="Left: at context z = 1.4, the refined quantile function Q1 rises above the baseline Q0 in the upper quantiles. Right: the deformation field over quantile level u and context z; the affected quantile band moves with z and changes sign.">
 </p>
-<p align="center"><sub>Illustration. QRCIT compares the conditional quantiles of X with and without Y. Their difference, the deformation Δ(y, z, u), is zero under conditional independence; otherwise it shows the contexts <i>z</i> and quantile levels <i>u</i> where Y changes X.</sub></p>
+<p align="center"><sub>QRCIT compares the conditional quantiles of X with and without Y. Their difference, the deformation Δ(y, z, u), is zero under conditional independence; otherwise it shows the contexts <i>z</i> and quantile levels <i>u</i> where Y changes X.</sub></p>
 
 ## Why QRCIT
 
