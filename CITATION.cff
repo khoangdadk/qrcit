@@ -3,6 +3,7 @@ message: "Please cite the QRCIT paper when using this code."
 title: "Structural Conditional Independence Test via Neural Quantile Resolution"
 type: software
 version: 1.0.0
+license: MIT
 authors:
   - family-names: Nguyen
     given-names: Khoa

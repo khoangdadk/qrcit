@@ -10,6 +10,7 @@ Deakin Applied Artificial Intelligence Initiative
 [![ICDM 2026](https://img.shields.io/badge/IEEE_ICDM-2026-2A66AD)](#citation)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-183B63)](pyproject.toml)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2%2B-183B63)](https://pytorch.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-183B63)](LICENSE)
 <!-- Add when public: [![Paper](https://img.shields.io/badge/Paper-PDF-2A66AD)](PAPER_URL) -->
 
 **A p-value tells you *whether* Y matters for X once Z is known.<br>
@@ -245,3 +246,7 @@ tests/         unit tests
   year      = {2026}
 }
 ```
+
+## License
+
+QRCIT is released under the [MIT License](LICENSE).
