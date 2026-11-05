@@ -5,6 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "qrcit"
 version = "1.0.0"
+license = "MIT"
 description = "Structural conditional independence testing via neural quantile resolution"
 readme = "README.md"
 requires-python = ">=3.10"
