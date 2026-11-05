@@ -250,5 +250,3 @@ If you use QRCIT, please cite:
 
 Please also acknowledge the original Sachs, METABRIC/cBioPortal and CCLE datasets
 when using their data. Software citation metadata is in [CITATION.cff](CITATION.cff).
-Questions and issues are welcome on the [issue tracker](https://github.com/khoangdadk/qrcit/issues)
-or by email to khoa.nguyen@deakin.edu.au.
