@@ -11,7 +11,7 @@ Deakin Applied Artificial Intelligence Initiative
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-183B63)](pyproject.toml)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2%2B-183B63)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-183B63)](LICENSE)
-<!-- Add when public: [![Paper](https://img.shields.io/badge/Paper-PDF-2A66AD)](PAPER_URL) -->
+[![arXiv](https://img.shields.io/badge/arXiv-2611.07165-B31B1B)](https://arxiv.org/abs/2611.07165)
 
 **A p-value tells you *whether* Y matters for X once Z is known.<br>
 QRCIT also shows *where* and *how*.**
